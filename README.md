@@ -1,5 +1,4 @@
-rint("""
-WEATHER ANALYSIS PROJECT
+print("""WEATHER ANALYSIS PROJECT
 
 OVERVIEW
 This project analyzes weather data using Python, Pandas, Matplotlib, and SciPy. The objective is to understand the distribution and variability of weather variables such as Temperature, Humidity, Rainfall, and Wind Speed through descriptive statistical analysis and graphical visualization.
