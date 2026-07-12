@@ -99,6 +99,13 @@ The following graphs were created for each weather variable:
 - Bar Diagram
 - Histogram
 - Frequency Polygon
+- ## Sample Visualizations
+
+### Temperature Histogram
+![Temperature Histogram](Temperature_histogram.png)
+
+### Rainfall Frequency Polygon
+![Rainfall Frequency Polygon](Rainfall_frequency_polygon.png)
 
 ## Conclusion
 
