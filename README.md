@@ -1,37 +1,72 @@
-# weather-analysis-project
-My first weather data analysis project using Python and Pandas.
-# Weather Analysis Project
+rint("""
+WEATHER ANALYSIS PROJECT
 
-## Overview
-This project analyzes weather data using Python, Pandas, and Matplotlib.
+OVERVIEW
+This project analyzes weather data using Python, Pandas, Matplotlib, and SciPy. The objective is to understand the distribution and variability of weather variables such as Temperature, Humidity, Rainfall, and Wind Speed through descriptive statistical analysis and graphical visualization.
 
-## Dataset
+DATASET
+The dataset contains daily weather observations with the following variables:
+
 - Date
-- Temperature
-- Humidity
-- Rainfall
-- WindSpeed
+- Temperature (°C)
+- Humidity (%)
+- Rainfall (mm)
+- WindSpeed (km/h)
 
-## Tools Used
+TOOLS USED
+
 - Python
 - Pandas
 - Matplotlib
+- SciPy
 - Jupyter Notebook
 - VS Code
 
-## Analysis
-- Data Inspection
-- Statistical Summary
-- Temperature Analysis
-- Temperature Trend Graph
-- Rainfall vs Temperature Scatter Plot
-- Correlation Analysis
+ANALYSIS PERFORMED
 
-## Key Findings
+Descriptive Statistics
+- Mean
+- Median
+- Mode
+- Range
+- Quartile Deviation
+- Standard Deviation
+
+Distribution Analysis
+- Skewness
+- Kurtosis
+- Distribution Interpretation
+
+Data Visualization
+- Bar Diagram
+- Histogram
+- Frequency Polygon
+
+KEY FINDINGS
+
+Temperature
 - Highest Temperature: 35°C
 - Lowest Temperature: 26°C
-- Average Temperature: 30.2°C
-- Correlation between Rainfall and Temperature: -0.697
+- Distribution analyzed using Histogram and Frequency Polygon.
 
-## Conclusion
-As rainfall increases, temperature tends to decrease. The data shows a moderately strong negative relationship between rainfall and temperature.
+Humidity
+- Values ranged from 50% to 78%.
+- Moderate variation observed across the month.
+
+Rainfall
+- Most days recorded low or no rainfall.
+- Positively skewed distribution due to a few high-rainfall days.
+
+Wind Speed
+- Wind speed ranged from 5 to 20 km/h.
+- Distribution showed moderate variability.
+
+STATISTICAL INTERPRETATION
+
+- Skewness was calculated to determine whether the data distribution is positively skewed, negatively skewed, or approximately symmetric.
+- Kurtosis was calculated to identify whether the distribution is Leptokurtic, Mesokurtic, or Platykurtic.
+
+CONCLUSION
+
+The weather dataset was successfully analyzed using descriptive statistics and graphical techniques. Measures of central tendency and dispersion provided insights into the typical weather conditions and variability. Histograms, Bar Diagrams, and Frequency Polygons helped visualize the distribution of each weather variable, while Skewness and Kurtosis provided information about the shape of the distributions.
+""")
