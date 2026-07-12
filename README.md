@@ -1,18 +1,28 @@
-WEATHER ANALYSIS PROJECT
+# Weather Analysis Project
 
-OVERVIEW
-This project analyzes weather data using Python, Pandas, Matplotlib, and SciPy. The objective is to understand the distribution and variability of weather variables such as Temperature, Humidity, Rainfall, and Wind Speed through descriptive statistical analysis and graphical visualization.
+## Project Overview
 
-DATASET
-The dataset contains daily weather observations with the following variables:
+This project analyzes daily weather data using Python. The aim is to study the distribution, variability, and patterns of weather variables such as Temperature, Humidity, Rainfall, and Wind Speed using descriptive statistics and data visualization techniques.
+
+## Objectives
+
+- Analyze weather variables using statistical methods.
+- Measure central tendency and dispersion.
+- Study the shape of data distributions.
+- Visualize weather patterns using graphs.
+- Interpret skewness and kurtosis.
+
+## Dataset Description
+
+The dataset contains 30 daily weather observations with the following variables:
 
 - Date
 - Temperature (°C)
 - Humidity (%)
 - Rainfall (mm)
-- WindSpeed (km/h)
+- Wind Speed (km/h)
 
-TOOLS USED
+## Tools and Libraries
 
 - Python
 - Pandas
@@ -21,9 +31,17 @@ TOOLS USED
 - Jupyter Notebook
 - VS Code
 
-ANALYSIS PERFORMED
+## Methodology
 
-Descriptive Statistics
+### Data Preparation
+
+- Imported the dataset into a Pandas DataFrame.
+- Checked the data structure and variables.
+
+### Descriptive Statistics
+
+The following measures were calculated for Temperature, Humidity, Rainfall, and Wind Speed:
+
 - Mean
 - Median
 - Mode
@@ -31,41 +49,57 @@ Descriptive Statistics
 - Quartile Deviation
 - Standard Deviation
 
-Distribution Analysis
+### Distribution Analysis
+
 - Skewness
 - Kurtosis
 - Distribution Interpretation
 
-Data Visualization
+### Data Visualization
+
 - Bar Diagram
 - Histogram
 - Frequency Polygon
 
-KEY FINDINGS
+## Results
 
-Temperature
-- Highest Temperature: 35°C
-- Lowest Temperature: 26°C
-- Distribution analyzed using Histogram and Frequency Polygon.
+### Temperature
 
-Humidity
-- Values ranged from 50% to 78%.
-- Moderate variation observed across the month.
+- Minimum Temperature: 26°C
+- Maximum Temperature: 35°C
+- Moderate variability observed.
 
-Rainfall
-- Most days recorded low or no rainfall.
-- Positively skewed distribution due to a few high-rainfall days.
+### Humidity
 
-Wind Speed
-- Wind speed ranged from 5 to 20 km/h.
-- Distribution showed moderate variability.
+- Minimum Humidity: 50%
+- Maximum Humidity: 78%
+- Humidity levels varied throughout the month.
 
-STATISTICAL INTERPRETATION
+### Rainfall
 
-- Skewness was calculated to determine whether the data distribution is positively skewed, negatively skewed, or approximately symmetric.
-- Kurtosis was calculated to identify whether the distribution is Leptokurtic, Mesokurtic, or Platykurtic.
+- Several days recorded zero rainfall.
+- Distribution showed positive skewness due to a few high-rainfall days.
 
-CONCLUSION
+### Wind Speed
 
-The weather dataset was successfully analyzed using descriptive statistics and graphical techniques. Measures of central tendency and dispersion provided insights into the typical weather conditions and variability. Histograms, Bar Diagrams, and Frequency Polygons helped visualize the distribution of each weather variable, while Skewness and Kurtosis provided information about the shape of the distributions.
+- Minimum Wind Speed: 5 km/h
+- Maximum Wind Speed: 20 km/h
+- Moderate spread of observations.
 
+## Statistical Interpretation
+
+- Skewness was used to identify whether the data was positively skewed, negatively skewed, or approximately symmetric.
+- Kurtosis was used to determine whether the distribution was Leptokurtic, Mesokurtic, or Platykurtic.
+- These measures provided additional insights into the shape and behavior of the weather variables.
+
+## Visualizations
+
+The following graphs were created for each weather variable:
+
+- Bar Diagram
+- Histogram
+- Frequency Polygon
+
+## Conclusion
+
+The weather dataset was successfully analyzed using descriptive statistical techniques and graphical methods. Measures of central tendency and dispersion provided insights into the typical weather conditions and variability. Histograms, Bar Diagrams, and Frequency Polygons helped visualize the distribution of each weather variable, while Skewness and Kurtosis provided information about the shape of the distributions.
