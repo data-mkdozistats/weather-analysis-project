@@ -1,4 +1,4 @@
-print("""WEATHER ANALYSIS PROJECT
+WEATHER ANALYSIS PROJECT
 
 OVERVIEW
 This project analyzes weather data using Python, Pandas, Matplotlib, and SciPy. The objective is to understand the distribution and variability of weather variables such as Temperature, Humidity, Rainfall, and Wind Speed through descriptive statistical analysis and graphical visualization.
@@ -68,4 +68,4 @@ STATISTICAL INTERPRETATION
 CONCLUSION
 
 The weather dataset was successfully analyzed using descriptive statistics and graphical techniques. Measures of central tendency and dispersion provided insights into the typical weather conditions and variability. Histograms, Bar Diagrams, and Frequency Polygons helped visualize the distribution of each weather variable, while Skewness and Kurtosis provided information about the shape of the distributions.
-""")
+
