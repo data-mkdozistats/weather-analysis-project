@@ -99,14 +99,7 @@ The following graphs were created for each weather variable:
 - Bar Diagram
 - Histogram
 - Frequency Polygon
-- ## Sample Visualizations
-
-### Temperature Histogram
-![Temperature Histogram](Temperature_histogram.png)
-
-### Rainfall Frequency Polygon
-![Rainfall Frequency Polygon](Rainfall_frequency_polygon.png)
-
+- 
 ## Conclusion
 
 The weather dataset was successfully analyzed using descriptive statistical techniques and graphical methods. Measures of central tendency and dispersion provided insights into the typical weather conditions and variability. Histograms, Bar Diagrams, and Frequency Polygons helped visualize the distribution of each weather variable, while Skewness and Kurtosis provided information about the shape of the distributions.
